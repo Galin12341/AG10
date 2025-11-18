@@ -1,0 +1,30 @@
+rules:
+  - id: hardcoded-secret
+    pattern: $VAR = "..."
+    message: Potential hardcoded secret found
+    severity: WARNING
+    languages: [python]
+
+  - id: sql-injection
+    pattern: cursor.execute($X)
+    message: Potential SQL injection vulnerability
+    severity: ERROR
+    languages: [python]
+
+  - id: command-injection
+    pattern: subprocess.$FUNC(..., shell=True, ...)
+    message: Command injection risk with shell=True
+    severity: ERROR
+    languages: [python]
+
+  - id: eval-usage
+    pattern: eval(...)
+    message: Use of dangerous eval() function
+    severity: ERROR
+    languages: [python]
+
+  - id: pickle-usage
+    pattern: pickle.$FUNC(...)
+    message: Insecure deserialization with pickle
+    severity: WARNING
+    languages: [python]

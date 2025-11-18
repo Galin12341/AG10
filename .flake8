@@ -1,0 +1,14 @@
+[flake8]
+# Flake8 configuration for DevSecOps practice
+max-line-length = 100
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    .venv
+max-complexity = 10
+ignore =
+    # We want to catch these issues for the demo
+count = True
+statistics = True
+show-source = True

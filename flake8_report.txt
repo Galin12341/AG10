@@ -1,0 +1,73 @@
+app.py:108:6: E225 missing whitespace around operator
+    x=1+2
+     ^
+app.py:108:8: E226 missing whitespace around arithmetic operator
+    x=1+2
+       ^
+app.py:109:6: E225 missing whitespace around operator
+    y=3+4
+     ^
+app.py:109:8: E226 missing whitespace around arithmetic operator
+    y=3+4
+       ^
+app.py:110:6: E225 missing whitespace around operator
+    z=x+y
+     ^
+app.py:110:8: E226 missing whitespace around arithmetic operator
+    z=x+y
+       ^
+app.py:113:1: E302 expected 2 blank lines, found 1
+def badly_formatted_function(a,b,c,d,e,f,g):
+^
+app.py:113:31: E231 missing whitespace after ','
+def badly_formatted_function(a,b,c,d,e,f,g):
+                              ^
+app.py:113:33: E231 missing whitespace after ','
+def badly_formatted_function(a,b,c,d,e,f,g):
+                                ^
+app.py:113:35: E231 missing whitespace after ','
+def badly_formatted_function(a,b,c,d,e,f,g):
+                                  ^
+app.py:113:37: E231 missing whitespace after ','
+def badly_formatted_function(a,b,c,d,e,f,g):
+                                    ^
+app.py:113:39: E231 missing whitespace after ','
+def badly_formatted_function(a,b,c,d,e,f,g):
+                                      ^
+app.py:113:41: E231 missing whitespace after ','
+def badly_formatted_function(a,b,c,d,e,f,g):
+                                        ^
+app.py:119:33: E226 missing whitespace around arithmetic operator
+                        return f+g
+                                ^
+utils.py:25:1: F401 'sys' imported but unused
+import sys
+^
+utils.py:25:1: E402 module level import not at top of file
+import sys
+^
+utils.py:26:1: F401 'json' imported but unused
+import json
+^
+utils.py:26:1: E402 module level import not at top of file
+import json
+^
+utils.py:27:1: F401 'time' imported but unused
+import time
+^
+utils.py:27:1: E402 module level import not at top of file
+import time
+^
+utils.py:54:8: E231 missing whitespace after ','
+def f(x,y):
+       ^
+utils.py:55:13: E226 missing whitespace around arithmetic operator
+    return x+y
+            ^
+3     E225 missing whitespace around operator
+5     E226 missing whitespace around arithmetic operator
+7     E231 missing whitespace after ','
+1     E302 expected 2 blank lines, found 1
+3     E402 module level import not at top of file
+3     F401 'sys' imported but unused
+22

@@ -1,0 +1,152 @@
+************* Module app
+app.py:9:0: E0401: Unable to import 'flask' (import-error)
+app.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:37:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:52:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:61:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:79:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:86:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:94:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:100:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:103:11: W0123: Use of eval (eval-used)
+app.py:107:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:113:0: C0116: Missing function or method docstring (missing-function-docstring)
+app.py:113:0: R0913: Too many arguments (7/5) (too-many-arguments)
+app.py:113:0: R0917: Too many positional arguments (7/5) (too-many-positional-arguments)
+app.py:10:0: C0411: standard import "subprocess" should be placed before third party import "flask.Flask" (wrong-import-order)
+************* Module utils
+utils.py:21:4: W0107: Unnecessary pass statement (unnecessary-pass)
+utils.py:19:19: W0613: Unused argument 'user_input' (unused-argument)
+utils.py:25:0: C0413: Import "import sys" should be placed at the top of the module (wrong-import-position)
+utils.py:26:0: C0413: Import "import json" should be placed at the top of the module (wrong-import-position)
+utils.py:27:0: C0413: Import "import time" should be placed at the top of the module (wrong-import-position)
+utils.py:29:0: C0103: Constant name "unused_var" doesn't conform to UPPER_CASE naming style (invalid-name)
+utils.py:34:0: C0116: Missing function or method docstring (missing-function-docstring)
+utils.py:39:20: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+utils.py:54:0: C0116: Missing function or method docstring (missing-function-docstring)
+utils.py:59:0: C0116: Missing function or method docstring (missing-function-docstring)
+utils.py:25:0: W0611: Unused import sys (unused-import)
+utils.py:26:0: W0611: Unused import json (unused-import)
+utils.py:27:0: W0611: Unused import time (unused-import)
+
+
+Report
+======
+99 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |3          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |16     |16         |=          |18.75       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+211 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |126    |59.72 |126      |=          |
++----------+-------+------+---------+-----------+
+|docstring |13     |6.16  |13       |=          |
++----------+-------+------+---------+-----------+
+|comment   |20     |9.48  |20       |=          |
++----------+-------+------+---------+-----------+
+|empty     |52     |24.64 |52       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |18     |18       |18         |
++-----------+-------+---------+-----------+
+|refactor   |3      |3        |3          |
++-----------+-------+---------+-----------+
+|warning    |6      |6        |6          |
++-----------+-------+---------+-----------+
+|error      |1      |1        |1          |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++-------+-------+--------+---------+-----------+
+|module |error  |warning |refactor |convention |
++=======+=======+========+=========+===========+
+|app    |100.00 |16.67   |66.67    |61.11      |
++-------+-------+--------+---------+-----------+
+|utils  |0.00   |83.33   |33.33    |38.89      |
++-------+-------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------------------+------------+
+|message id                    |occurrences |
++==============================+============+
+|missing-function-docstring    |13          |
++------------------------------+------------+
+|wrong-import-position         |3           |
++------------------------------+------------+
+|unused-import                 |3           |
++------------------------------+------------+
+|wrong-import-order            |1           |
++------------------------------+------------+
+|unused-argument               |1           |
++------------------------------+------------+
+|unnecessary-pass              |1           |
++------------------------------+------------+
+|too-many-positional-arguments |1           |
++------------------------------+------------+
+|too-many-arguments            |1           |
++------------------------------+------------+
+|no-else-return                |1           |
++------------------------------+------------+
+|invalid-name                  |1           |
++------------------------------+------------+
+|import-error                  |1           |
++------------------------------+------------+
+|eval-used                     |1           |
++------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 6.77/10 (previous run: 6.77/10, +0.00)
+

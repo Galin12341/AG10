@@ -1,6 +1,6 @@
 # Intentionally using old/vulnerable versions for SCA demo
 Flask==2.0.1
-Werkzeug==2.0.1
+Werkzeug==3.0.6
 Jinja2==3.0.1
 requests==2.25.0
 urllib3==1.26.4
